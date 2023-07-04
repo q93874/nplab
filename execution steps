@@ -1,0 +1,42 @@
+step 1.)
+Login into sudo su
+type the password:
+ 
+
+Step 2.) Change your directory to ns3
+cd ns-allinone-3.30.1/ns-3.30.1
+ 
+
+Step 3.) Change your directory to scratch
+cd scratch/
+ 
+
+Step 4.)Create your file with .cc extension
+gedit filename.cc
+
+step 5.) change your directory.
+cd  ..
+
+Step 6.) compile the file with waf
+./waf
+ 
+step 7.) execute the file 
+./waf  --run scratch/filename without extension
+ 
+
+step 8.) execute netanimation
+cd  ..
+
+step 9.) Change your directoy to neanimation
+cd netanim-3.108/
+
+step 10.)enable netanimation
+export QT_X11_NO_MITSHM=1 
+search .xml file and open 
+ 
+
+
+
+
+step 11.) execute
+./NetAnim
