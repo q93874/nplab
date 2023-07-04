@@ -1,4 +1,3 @@
-
 #include <string>
 #include <fstream>
 #include "ns3/core-module.h"
@@ -8,13 +7,10 @@
 #include "ns3/network-module.h"
 #include "ns3/packet-sink.h"
 #include "ns3/netanim-module.h"
-
 using namespace ns3;
 int
 main (int argc, char *argv[])
 {
-
-
  uint32_t maxBytes = 0;
 NodeContainer nodes;
  nodes.Create (2);
@@ -45,6 +41,4 @@ AnimationInterface anim ("fourth.xml");
 anim.EnablePacketMetadata(true);
  Simulator::Run ();
   Simulator::Destroy ();
-  
-
   }
